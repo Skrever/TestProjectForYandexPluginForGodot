@@ -3,4 +3,4 @@ extends Node
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	YandexSDK.game_ready()
+	YandexSDK.init_game()

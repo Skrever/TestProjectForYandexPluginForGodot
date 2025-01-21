@@ -20,7 +20,6 @@ function InitGame(params, callback) {
 function GameReady() {
 	ysdk.features.LoadingAPI?.ready();
 	console.log("Game ready");
-	callback();
 }
 
 let player;

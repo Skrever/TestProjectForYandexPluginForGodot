@@ -1,5 +1,5 @@
 extends Control
-		
+
 func _ready() -> void:
-	pass
+	YandexSDK.game_ready()
 	
